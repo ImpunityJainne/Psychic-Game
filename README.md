@@ -1,12 +1,6 @@
 # Psychic-Game
-The app randomly picks a letter, and the user has to guess which letter the app chose.
+The app randomly picks a letter, and the user has to guess which letter the app chose. You get 9 tries. If you guess the letter, a nice message pops up and the game resets. If you run out of guesses, a sympathetic message pops up and the game resets.
 
-## What currently doesn't work:
+## Project Status
 
-You can use Chrome's Inspector to view the logs of what's happening in the code so far. 
-
-*Updating Counts*  
-   I haven't figured out how to push the new values to categories shown on the HTML page yet.
-
-*letter variable*  
-   Also not working is the "letter" variable. I think I'm experiencing a scope issue.
+Yay! The game works! Now I need to go back and clean up my code to make it DRY. (There's currently a lot of copy-pasta going on.)
