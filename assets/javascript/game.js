@@ -1,3 +1,5 @@
+// Remember to reference the rock, paper, scissors game
+
 // 4. Wins: (# of times the user has guessed the letter correctly)
 
 var wins = 0;
@@ -14,6 +16,7 @@ document.getElementById("lossesContainer").innerHTML = "Losses: " + losses;
 
 // 6. Guesses Left: (# of guesses left. This will update)
 
+var letter;
 var turns = 0;
 var guessesLeft = 9 - turns;
 console.log("Guesses left: " + guessesLeft);
